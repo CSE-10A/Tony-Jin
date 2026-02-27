@@ -9,4 +9,7 @@ Expected Output :
 45°F is 7 in Celsius
 """
 
-print("skibidi")
+ctof = float(input("Enter temperature in Celsius: ")) # c to f
+ftoc = float(input("Enter temperature in Farenheit: ")) # f to c
+print(ctof + "°C" + "is {(ctof * 9/5) + 32} in Fahrenheit") # convert c to f and print result
+print(f"{ftoc}°F is {(ftoc - 32) * 5/9} in Celsius") # convert f to c and print result
