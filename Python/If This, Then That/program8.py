@@ -7,3 +7,5 @@ If n is even and in the inclusive range of  6 to, 10 print Weird
 If n is even and greater than 20, print Not Weird
 """
 
+n = int(input("Enter an integer: "))
+if 
