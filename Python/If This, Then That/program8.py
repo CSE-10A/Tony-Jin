@@ -8,4 +8,11 @@ If n is even and greater than 20, print Not Weird
 """
 
 n = int(input("Enter an integer: "))
-if 
+
+if n % 2 != 0:
+    print("Weird")
+elif n >= 2 and n <= 5:
+    print("Not Weird")
+elif n >= 6 and n <= 10:
+    print("Weird")
+elif n >= 20
