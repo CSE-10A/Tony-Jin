@@ -9,7 +9,7 @@ Expected Output :
 45°F is 7 in Celsius
 """
 
-ctof = float(input("Enter temperature in Celsius: ")) # c to f
-ftoc = float(input("Enter temperature in Farenheit: ")) # f to c
+ctof = float(input("Enter temperature in Celsius: ")) # c to f var
+ftoc = float(input("Enter temperature in Farenheit: ")) # f to c var
 print(str(ctof) + "°C is " + str((ctof * 9/5) + 32) + " in Fahrenheit") # convert c to f and print result
 print(str(ftoc) + "°F is " + str((ftoc - 32) * 5/9) + " in Celsius") # convert f to c and print result
