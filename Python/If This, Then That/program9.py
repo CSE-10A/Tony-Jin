@@ -12,4 +12,17 @@ Task
 
 Given a year, determine whether it is a leap year. If it is a leap year, return the Boolean True, otherwise return False.
 """
-def is_leap(year):
+
+def is_leap(year): # function
+    leap = False
+    
+    if year % 4 == 0: # year divisible by 4?
+        leap = True
+        if year % 100 == 0: # year divisible by 100?
+            leap = False
+            if year % 400 == 0: # year divisible by 400?
+                leap = True
+
+    return leap
+
+print(is_leap(int(input("Enter a year: "))))
