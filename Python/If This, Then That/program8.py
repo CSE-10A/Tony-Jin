@@ -11,11 +11,11 @@ If n is even and greater than 20, print Not Weird
 
 n = int(input("Enter an integer: ")) # integer variable
 
-if n % 2 != 0: # check if n is odd
+if n % 2 != 0: # check if n is divisible by 2
     print("Weird")
-elif n >= 2 and n <= 5: # n between 2 and 5?
+elif n >= 2 and n <= 5: # n greater or equal to 2 and less than or equal to 5?
     print("Not Weird")
-elif n >= 6 and n <= 10: # n between 6 and 10?
+elif n >= 6 and n <= 10: # n greater or equal to 6 and less than or equal to 10?
     print("Weird")
 elif n > 20: # n greater than 20?
     print("Not Weird")
